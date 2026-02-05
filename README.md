@@ -19,10 +19,10 @@ Ugyldig klasse: forkert adgangskode.
 
 Grænseværdi test
 Regel: Adgangskode skal være mellem 8 og 12 tegn.
-7 tegn (for kort) -> fejl.
-8 tegn (mindste gyldige) -> ok.
-12 tegn (største gyldige) -> ok.
-13 tegn (for langt) -> fejl.
+7 tegn (for kort) = fejl.
+8 tegn (mindste gyldige) = ok.
+12 tegn (største gyldige) = ok.
+13 tegn (for langt) = fejl.
 
 CRUD
 For brugerkonto i systemet:
@@ -48,7 +48,7 @@ UI tests: Tjek at login-knappen virker i browseren.
 
 Decision table test
 Regler:
-Hvis brugernavn er korrekt OG adgangskode er korrekt -> login ok.
-Hvis brugernavn er korrekt OG adgangskode er forkert -> fejl.
-Hvis brugernavn er forkert OG adgangskode er korrekt -> fejl.
-Hvis brugernavn er forkert OG adgangskode er forkert -> fejl.
+Hvis brugernavn er korrekt OG adgangskode er korrekt = login ok.
+Hvis brugernavn er korrekt OG adgangskode er forkert = fejl.
+Hvis brugernavn er forkert OG adgangskode er korrekt = fejl.
+Hvis brugernavn er forkert OG adgangskode er forkert = fejl.
