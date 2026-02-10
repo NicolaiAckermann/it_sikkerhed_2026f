@@ -52,3 +52,8 @@ Decision table test
 - Hvis brugernavn er korrekt OG adgangskode er forkert = fejl.
 - Hvis brugernavn er forkert OG adgangskode er korrekt = fejl.
 - Hvis brugernavn er forkert OG adgangskode er forkert = fejl.
+
+10-2-2026 - Flat file
+-Det er smart at bruge en flat_file_db, fordi den er nem at implementere, kræver ingen database-server og er god til små projekter og tests, hvor data bare skal gemmes simpelt og hurtigt.
+-Hvis testen ikke består, er der risiko for at data ikke bliver gemt eller hentet korrekt, hvilket kan føre til datatab eller fejl i applikationen.
+<img width="822" height="287" alt="Skærmbillede 2026-02-10 113430" src="https://github.com/user-attachments/assets/c9847eb9-f03a-42be-ac7c-c16899081ed8" />
