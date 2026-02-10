@@ -55,5 +55,14 @@ Decision table test
 
 10-2-2026 - Flat file
 -Det er smart at bruge en flat_file_db, fordi den er nem at implementere, kræver ingen database-server og er god til små projekter og tests, hvor data bare skal gemmes simpelt og hurtigt.
+ <img width="822" height="287" alt="Skærmbillede 2026-02-10 113430" src="https://github.com/user-attachments/assets/4bd8fe1e-7cf8-49c9-aa5f-5ec102cb675a" />
 -Hvis testen ikke består, er der risiko for at data ikke bliver gemt eller hentet korrekt, hvilket kan føre til datatab eller fejl i applikationen.
 <img width="822" height="287" alt="Skærmbillede 2026-02-10 113430" src="https://github.com/user-attachments/assets/c9847eb9-f03a-42be-ac7c-c16899081ed8" />
+
+
+Kryptering og Hashing
+-Jeg kunne vælge mellem flere algoritmer som AES og hashing-algoritmer. Jeg valgte AES, fordi den er sikker og nem at bruge.
+-Jeg krypterer data, når jeg gemmer følsomme oplysninger, så andre ikke kan læse dem.
+-Jeg dekrypterer data, når programmet skal bruge oplysningerne igen.
+-Jeg fjerner data fra hukommelsen, når det ikke længere er nødvendigt, for at gøre det mere sikkert.
+-Ja, man bør også tage hensyn til sikker nøglehåndtering og adgangskontrol.
