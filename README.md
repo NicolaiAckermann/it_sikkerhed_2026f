@@ -54,13 +54,16 @@ Decision table test
 - Hvis brugernavn er forkert OG adgangskode er forkert = fejl.
 
 10-2-2026 - Flat file
+
 -Det er smart at bruge en flat_file_db, fordi den er nem at implementere, kræver ingen database-server og er god til små projekter og tests, hvor data bare skal gemmes simpelt og hurtigt.
- <img width="822" height="287" alt="Skærmbillede 2026-02-10 113430" src="https://github.com/user-attachments/assets/4bd8fe1e-7cf8-49c9-aa5f-5ec102cb675a" />
+<img width="805" height="583" alt="Skærmbillede 2026-02-10 114324" src="https://github.com/user-attachments/assets/092e6694-23b7-4b17-abcd-04c72922a2a5" />
+
 -Hvis testen ikke består, er der risiko for at data ikke bliver gemt eller hentet korrekt, hvilket kan føre til datatab eller fejl i applikationen.
 <img width="822" height="287" alt="Skærmbillede 2026-02-10 113430" src="https://github.com/user-attachments/assets/c9847eb9-f03a-42be-ac7c-c16899081ed8" />
 
 
 Kryptering og Hashing
+
 -Jeg kunne vælge mellem flere algoritmer som AES og hashing-algoritmer. Jeg valgte AES, fordi den er sikker og nem at bruge.
 -Jeg krypterer data, når jeg gemmer følsomme oplysninger, så andre ikke kan læse dem.
 -Jeg dekrypterer data, når programmet skal bruge oplysningerne igen.
