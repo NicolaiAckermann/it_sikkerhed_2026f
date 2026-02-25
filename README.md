@@ -69,3 +69,13 @@ Kryptering og Hashing
 -Jeg dekrypterer data, når programmet skal bruge oplysningerne igen.
 -Jeg fjerner data fra hukommelsen, når det ikke længere er nødvendigt, for at gøre det mere sikkert.
 -Ja, man bør også tage hensyn til sikker nøglehåndtering og adgangskontrol.
+
+
+
+
+
+
+Rest API OPG:
+
+<img width="675" height="1150" alt="rest api" src="https://github.com/user-attachments/assets/eef7d886-fd54-49bb-8439-32f3e74d3164" />
+
