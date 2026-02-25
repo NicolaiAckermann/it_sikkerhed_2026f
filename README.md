@@ -79,3 +79,8 @@ Rest API OPG:
 
 <img width="675" height="1150" alt="rest api" src="https://github.com/user-attachments/assets/eef7d886-fd54-49bb-8439-32f3e74d3164" />
 
+Auth OPG:
+
+<img width="827" height="1128" alt="auth" src="https://github.com/user-attachments/assets/af1ca86e-2a6f-43e0-8d34-7d89fdf1ff46" />
+
+
